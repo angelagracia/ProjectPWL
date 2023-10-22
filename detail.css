@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.judul {
+    width: 566px;
+    height: 85px;
+    flex-shrink : 0;
+}
+.synopsis {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

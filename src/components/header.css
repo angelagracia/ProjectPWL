@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Newsreader:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Lexend:100,200,300,regular,500,600,700,800,900);;
+
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height : 100vh;
+    background-color: black;
+}
+
+.wrapper {  
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+}
+
+.name{
+    color: white;
+    font-family: 'Newsreader';
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.accContainer{
+    display: flex; 
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+
+.login button{
+    font-family: 'Lexend';
+    top : 0;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.createAcc button{
+    font-family: 'Lexend';
+    top : 0;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.login :hover {
+    transition: width 0.3s linear;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.createAcc :hover {
+    transition: width 0.3s linear;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

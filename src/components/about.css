@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Newsreader:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+.wrapper3{
+    padding: 30px 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 125px;
+}
+
+.booksImg img{
+    padding-top: 20px;
+    margin-left: 30px;
+    width: 450px;
+}
+
+.abt{
+    text-align: right;
+    color: white;
+    font-family: 'Newsreader';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text{
+    padding-top: 30px;
+    text-align: right;
+    color: white;
+    width: 500px;
+    float: right;
+}

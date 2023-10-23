@@ -16,10 +16,10 @@ function Navbar(){
                 </div>
                 <ul className='navigation'>
                     <li className='home'>
-                        <a href="/">Home</a>
+                        <a href="../pages/home2.jsx">Home</a>
                     </li>
                     <li className='myBook'>
-                        <a href="/">My Books</a>
+                        <a href="../pages/mybook.jsx">My Books</a>
                     </li>
                     <li>
                         <a href=""><img src={account} alt="" /></a>

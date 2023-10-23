@@ -10,6 +10,9 @@ function Discover(){
                     <button className='btnSearch'>search</button>
                 </div>
             </div>
+            <div className='recomendation'>
+                <p>Recomendation</p>
+            </div>
         </div>
     );
 }

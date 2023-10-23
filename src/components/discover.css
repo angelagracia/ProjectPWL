@@ -20,18 +20,34 @@
     margin-top: 2%;
     font-family:'Lexend' ;
     padding: 0px 5px;
-    height: 27px;
+    height: 31px;
     width: 400px;
     border: 2px black solid;
     font-size: 15px;
     background-color: rgba(255,255,255,0.5);;
 }
 
+.recomendation{
+    background-color: black;
+    width: 100%;
+}
+
+.recomendation p{
+   font-size:30px;
+   font-weight: bold;
+   font-family: 'Lato';
+   color: white;
+   display: flex;
+   padding: 30px;
+   padding-bottom: 10px;
+
+}
+
 .btnSearch{
     font-family:'Lexend' ;
     background-color: black;
     border: none;
-    height: 30px;
+    height: 35px;
     color: white;
     font-size: 15px;
     font-weight: bold;

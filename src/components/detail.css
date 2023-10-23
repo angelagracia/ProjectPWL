@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.container6{
+    background-color: black;
+    display: flex;
+    padding-top: 7%;
+}
+
+.information{
+    text-align:  left;
+    margin: 30px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+ul{
+    padding-bottom: 10px;
+}
+
+.gambar img{
+    width: 300px;
+    margin: 30px;
+}
+.judul {
+    width: 566px;
+    height: 85px;
+    flex-shrink : 0;
+    color: white;
+}
+.synopsis {
+    padding: 20px 0px;
+    color: #FFF;
+    text-align:  left;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.information p{
+    padding-bottom: 20px;
+}
+.addBtn{
+    background-color: black;
+    border: white solid 2px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding: 5px;
+}
+
+.addBtn:hover{
+    background-color: white;
+    border: white solid 2px;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}

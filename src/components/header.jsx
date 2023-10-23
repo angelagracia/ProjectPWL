@@ -13,10 +13,14 @@ function Header(){
                 </div>
                 <ul className='accContainer'>
                     <li className='login'>
-                        <button>Log In</button>
+                        <button>
+                            <a href="../pages/login.jsx">Log In</a>
+                        </button>
                     </li>
                     <li className='createAcc'>
-                        <button>Create Account</button>
+                        <button>
+                            <a href="../pages/Register.jsx">Create Account</a>
+                        </button>
                     </li>
                 </ul>
             </nav>

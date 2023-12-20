@@ -1,0 +1,15 @@
+.recomendation{
+    background-color: black;
+    width: 100%;
+}
+
+.recomendation p{
+   font-size:30px;
+   font-weight: bold;
+   font-family: 'Lato';
+   color: white;
+   display: flex;
+   padding: 30px;
+   padding-bottom: 10px;
+
+}

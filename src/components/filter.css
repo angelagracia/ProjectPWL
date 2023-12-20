@@ -4,12 +4,9 @@
 .box {
     width: 100%;
     background-color: black;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .wrap{
-    display: flex;
     margin: 30px;
     margin-top: 10px;
 }
@@ -17,30 +14,30 @@
 .item {
     color: snow;
     padding: 20px;
+    display: flex;
+}
+
+.detail{
+    padding: 30px;
 }
 
 .item.cover{
-    height: 270;
+    height: 285;
     width: auto;
 }
 
-.cover img{
-    width: 200px;
-}
-
-.title{
-    width: 10px;
-    font-size: 15px;
+.detail h4{
+    font-size: 20px;
     font-family: 'Poppins';
     font-weight: bold;
+    text-align: left;
 }
 
-.author{
+.detail p{
     font-size: 15px;
     font-family: 'Poppins';
-    
+    text-align: left;
 }
-
 
 .item:hover{
     border: 2px #353935 solid;
@@ -50,21 +47,25 @@
     padding: 5px;
 }
 
-.removebtn{
+.btnContainer{
+    padding-top: 20px;
+}
+
+.addbtn{
     background-color: black;
-    border: white solid 1px;
+    border: white solid 2px;
     color: white;
     font-family: 'Poppins';
-    font-size: 10px;
+    font-size: 15px;
     padding: 5px;
 }
 
-.removebtn:hover{
+.addbtn:hover{
     background-color: white;
-    border: white solid 1px;
+    border: white solid 2px;
     color: black;
     font-family: 'Poppins';
-    font-size: 10px;
+    font-size: 15px;
     padding: 5px;
     cursor: pointer;
 }

@@ -1,8 +1,10 @@
 import logo from '../img/logo.png';
 import account from '../img/account.png';
 import './navbar.css';
+import { useNavigate } from 'react-router-dom'
 
 function Navbar(){
+    const navigate = useNavigate()
     return(
         <div className="container">
            <nav className='wrapper'>
@@ -16,10 +18,10 @@ function Navbar(){
                 </div>
                 <ul className='navigation'>
                     <li className='home'>
-                        <a href="../pages/home2.jsx">Home</a>
+                        <a onClick={() => navigate('/home')}>Home</a>
                     </li>
                     <li className='myBook'>
-                        <a href="../pages/mybook.jsx">My Books</a>
+                        <a onClick={() => navigate('/mybook')}>My Books</a>
                     </li>
                     <li>
                         <a href=""><img src={account} alt="" /></a>

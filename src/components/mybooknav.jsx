@@ -10,9 +10,7 @@ function Mybooknav(){
                     </div>
                     <div>
                         <input className='searchBar2' type="text" />
-                        <button className='btnSearch2'>
-                            <a href="../pages/searchresult.jsx">search</a>
-                        </button>
+                        <button className='btnSearch2'>search</button>
                     </div>
                 </div>
                 <ul className="bookNav">

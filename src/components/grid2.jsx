@@ -1,5 +1,4 @@
 import './grid.css';
-import dots from '../img/dots.png';
 
 const bookList = [
     {
@@ -86,6 +85,11 @@ function GridMyBook() {
                         </tr>
                         <tr><td className='title'>{bookList[0].title}</td></tr>
                         <tr><td className='author'>{bookList[0].author}</td></tr>
+                        <tr className='removeContainer'>
+                            <button className="removebtn">
+                                Remove 
+                            </button>
+                        </tr>
                     </table>
                 </div>
                 <div className='item'>
@@ -95,6 +99,11 @@ function GridMyBook() {
                         </tr>
                         <tr><td className='title'>{bookList[1].title}</td></tr>
                         <tr><td className='author'>{bookList[1].author}</td></tr>
+                        <tr className='removeContainer'>
+                            <button className="removebtn">
+                                Remove 
+                            </button>
+                        </tr>
                     </table>
                 </div>
                 <div className='item'>
@@ -104,6 +113,11 @@ function GridMyBook() {
                         </tr>
                         <tr><td className='title'>{bookList[2].title}</td></tr>
                         <tr><td className='author'>{bookList[2].author}</td></tr>
+                        <tr className='removeContainer'>
+                            <button className="removebtn">
+                                Remove 
+                            </button>
+                        </tr>
                     </table>
                 </div>
                 <div className='item'>
@@ -113,6 +127,11 @@ function GridMyBook() {
                         </tr>
                         <tr><td className='title'>{bookList[3].title}</td></tr>
                         <tr><td className='author'>{bookList[3].author}</td></tr>
+                        <tr className='removeContainer'>
+                            <button className="removebtn">
+                                Remove 
+                            </button>
+                        </tr>
                     </table>
                 </div>
                 <div className='item'>
@@ -122,6 +141,11 @@ function GridMyBook() {
                         </tr>
                         <tr><td className='title'>{bookList[5].title}</td></tr>
                         <tr><td className='author'>{bookList[5].author}</td></tr>
+                        <tr className='removeContainer'>
+                            <button className="removebtn">
+                                Remove 
+                            </button>
+                        </tr>
                     </table>
                 </div>
             </div>

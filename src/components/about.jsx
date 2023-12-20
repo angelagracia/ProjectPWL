@@ -10,7 +10,7 @@ function About(){
                 <div className='section'>
                     <div className='abt'>About Us</div>
                     <div className='text'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla libero a turpis viverra vehicula. Sed ac pellentesque ligula, ac pharetra justo. Donec ut erat vitae tortor accumsan convallis. Aenean ornare commodo purus sed semper.
+                        Ourlib is the site for readers and book recommendations. Our mission is to help readers discover books they love and get more out of reading. We allows individuals to search its database of books and annotations. Users can sign up and register books to generate library catalogs and reading lists.
                     </div>
                 </div>
             </div>

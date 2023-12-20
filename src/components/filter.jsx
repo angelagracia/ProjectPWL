@@ -1,5 +1,4 @@
-import './grid.css';
-import dots from '../img/dots.png';
+import './filter.css';
 
 const bookList = [
     {
@@ -75,58 +74,54 @@ const bookList = [
     }
 ]
 
-function GridMyBook() {
-    return (
+function ListFilter() {
+    return(
         <div className='box'>
             <div className='wrap'>
-                <div className='item'>
-                    <table>
-                        <tr>
-                            <td className="cover"><img src={bookList[0].cover} alt="cover"/></td>
-                        </tr>
-                        <tr><td className='title'>{bookList[0].title}</td></tr>
-                        <tr><td className='author'>{bookList[0].author}</td></tr>
-                    </table>
-                </div>
-                <div className='item'>
-                    <table>
-                        <tr>
-                            <td className="cover"><img src={bookList[1].cover} alt="cover"/></td>
-                        </tr>
-                        <tr><td className='title'>{bookList[1].title}</td></tr>
-                        <tr><td className='author'>{bookList[1].author}</td></tr>
-                    </table>
-                </div>
-                <div className='item'>
-                    <table>
-                        <tr>
-                            <td className="cover"><img src={bookList[2].cover} alt="cover"/></td>
-                        </tr>
-                        <tr><td className='title'>{bookList[2].title}</td></tr>
-                        <tr><td className='author'>{bookList[2].author}</td></tr>
-                    </table>
-                </div>
-                <div className='item'>
-                    <table>
-                        <tr>
-                            <td className="cover"><img src={bookList[3].cover} alt="cover"/></td>
-                        </tr>
-                        <tr><td className='title'>{bookList[3].title}</td></tr>
-                        <tr><td className='author'>{bookList[3].author}</td></tr>
-                    </table>
-                </div>
-                <div className='item'>
-                    <table>
-                        <tr>
-                            <td className="cover"><img src={bookList[5].cover} alt="cover"/></td>
-                        </tr>
-                        <tr><td className='title'>{bookList[5].title}</td></tr>
-                        <tr><td className='author'>{bookList[5].author}</td></tr>
-                    </table>
-                </div>
+                <table>
+                    <tr>
+                        <div className='item'>
+                            <td className='cover'><img src={bookList[4].cover} alt="cover"/></td>
+                            <td className='detail'>
+                                <h4>{bookList[4].title}</h4>
+                                <br />
+                                <p>Author   : {bookList[4].author}</p>
+                                <p>Genre    : {bookList[4].genre[0]}, {bookList[4].genre[1]}</p>
+                                <p>Pages    : {bookList[4].pages}</p>
+                                <p>Published: {bookList[4].publisher}, {bookList[4].year}</p>
+                                <p>ISBN     : {bookList[4].isbn}</p>
+                                <p className='btnContainer'>
+                                    <button className="addbtn">
+                                        + Add 
+                                    </button>
+                                </p>
+                            </td>
+                        </div>
+                        <hr />
+                    </tr>
+                    <tr>
+                        <div className='item'>
+                            <td className='cover'><img src={bookList[5].cover} alt="cover"/></td>
+                            <td className='detail'>
+                                <h4>{bookList[5].title}</h4>
+                                <br />
+                                <p>Author   : {bookList[5].author}</p>
+                                <p>Genre    : {bookList[5].genre[0]}, {bookList[5].genre[1]}</p>
+                                <p>Pages    : {bookList[5].pages}</p>
+                                <p>Published: {bookList[5].publisher}, {bookList[5].year}</p>
+                                <p>ISBN     : {bookList[5].isbn}</p>
+                                <p className='btnContainer'>
+                                    <button className="addbtn">
+                                        + Add 
+                                    </button>
+                                </p>
+                            </td>
+                        </div>
+                    </tr>
+                </table>
             </div>
         </div>
-    );    
+    )
 }
 
-export default GridMyBook
+export default ListFilter

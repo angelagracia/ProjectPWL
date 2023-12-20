@@ -7,11 +7,8 @@ function Discover(){
                 <h1 className="discover">Discover Books</h1>
                 <div className='search'>
                     <input className='inputText' type="text" />
-                    <button className='btnSearch'>search</button>
+                    <button className='btnSearch' >search</button>
                 </div>
-            </div>
-            <div className='recomendation'>
-                <p>Recomendation</p>
             </div>
         </div>
     );

@@ -1,7 +1,10 @@
 import logo from '../img/logo.png';
+import { useNavigate } from 'react-router-dom'
 import './header.css';
 
 function Header(){
+    const navigate = useNavigate()
+
     return(
         <div className="container">
             <nav className='wrapper'>
@@ -13,14 +16,10 @@ function Header(){
                 </div>
                 <ul className='accContainer'>
                     <li className='login'>
-                        <button>
-                            <a href="../pages/login.jsx">Log In</a>
-                        </button>
+                        <button onClick={() => navigate('/login')}>Log In</button>
                     </li>
                     <li className='createAcc'>
-                        <button>
-                            <a href="../pages/Register.jsx">Create Account</a>
-                        </button>
+                        <button onClick={() => navigate('/register')}>Create Account</button>
                     </li>
                 </ul>
             </nav>

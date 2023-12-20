@@ -7,7 +7,7 @@ export const Login = (props) => {
     const [password, setPassword] = useState('');
 
     const handleSubmit = () => {
-        email.preventDevault();
+        email.preventDefault();
         console.log(email);
     }
 
@@ -32,7 +32,7 @@ export const Login = (props) => {
                         <label htmlFor="email" className="email">Email</label><br />
                         <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" id="email" name="email" /> <br />
                         <br />
-                        <label htmlfor="password" className="password">Password</label> <br />
+                        <label htmlFor="password" className="password">Password</label> <br />
                         <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" id="password" name="password" /> <br />
                         <br />
                         <button className="lrBtn" type="sumbit">Log In</button><br />

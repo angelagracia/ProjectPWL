@@ -1,16 +1,16 @@
 import './home.css';
-import Navabar from '../components/navbar';
-import Mybooknav from '../components/mybooknav';
-import Grid from '../components/grid';
-
-function MyBook() {
+import Navbar from '../components/navbar';
+import MyBookNav from '../components/mybooknav';
+import Grid from '../components/grid2';
+function Mybook() {
   return (
     <div className="App">
-      <Navabar/>
-      <Mybooknav/>
+      <Navbar />
+      <MyBookNav />
       <Grid/>
+
     </div>
   );
 }
 
-export default MyBook;
+export default Mybook;

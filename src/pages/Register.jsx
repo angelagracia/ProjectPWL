@@ -7,7 +7,7 @@ export const Register = (props) => {
     const [password, setPassword] = useState('');
 
     const handleSubmit = () => {
-        email.preventDevault();
+        email.preventDefault();
         console.log(email);
     }
 

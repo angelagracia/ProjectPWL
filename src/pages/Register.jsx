@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import './login.css';
 import logo from '../img/logo.png';
+import { useNavigate } from 'react-router-dom'
 
 export const Register = (props) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = () => {
         email.preventDefault();
@@ -35,10 +37,10 @@ export const Register = (props) => {
                         <label htmlfor="password" className="password">Password</label>
                         <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" id="password" name="password" /> <br />
                         <br />
-                        <button className="lrBtn" type="sumbit">Log In</button>
+                        <button className="lrBtn" type="sumbit">Register</button>
                     </form>
                     <div className="textAcc">
-                        Already have an account? <button className="btnLr" onClick={() => props.onFormSwitch('login')}> Log In</button>
+                        Already have an account? <button className="btnLr" onClick={() =>navigate('/login')}> Log In</button>
                     </div>
         
                 </div>

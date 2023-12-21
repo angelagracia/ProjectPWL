@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import './login.css';
 import logo from '../img/logo.png';
+import { useNavigate } from 'react-router-dom'
 
 export const Login = (props) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = () => {
         email.preventDefault();
@@ -38,7 +40,7 @@ export const Login = (props) => {
                         <button className="lrBtn" type="sumbit">Log In</button><br />
                     </form>
                     <div className="textAcc">
-                        Don't have an account? <button className="btnLr" onClick={() => props.onFormSwitch('register')}> Create Account</button>
+                        Don't have an account? <button className="btnLr" onClick={() => navigate('/register')}> Create Account</button>
                     </div>
                 </div>
             </div>

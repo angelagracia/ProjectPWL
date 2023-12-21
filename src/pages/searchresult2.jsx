@@ -1,15 +1,15 @@
-import Header from '../components/header';
+import Navbar from '../components/navbar';
 import Search from '../components/search';
 import ListFilter from '../components/filter';
 
-function SearchResult1(title) {
+function SearchResult2() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Search/>
-      
+      <ListFilter/>
     </div>
   );
 }
 
-export default SearchResult1;
+export default SearchResult2;

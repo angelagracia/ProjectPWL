@@ -1,17 +1,12 @@
 import './mybooknav.css';
+import Search from './search';
 
 function Mybooknav(){
     return(
         <div className="container5">
            <nav className='wrapper5'>
                 <div className="titleSearch">
-                    <div>
-                        My Books
-                    </div>
-                    <div>
-                        <input className='searchBar2' type="text" />
-                        <button className='btnSearch2'>search</button>
-                    </div>
+                    <Search/>
                 </div>
                 <ul className="bookNav">
                     <li>

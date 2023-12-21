@@ -8,9 +8,10 @@
 }
 
 .titleSearch{
-    padding-top: 8%;
+    padding-top: 5%;
     display: flex;
     justify-content: space-between;
+    margin-left: 60%;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
